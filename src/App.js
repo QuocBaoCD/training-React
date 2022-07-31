@@ -5,11 +5,14 @@ import DemoClassCom from './Components/Democomponent/DemoClassCom';
 import BaiTapLayout from './Components/BaiTapLayout/BaiTapLayout';
 import BTNav from './Components/BaiTapLayout/BTNav';
 import Databinding from './Databinding/Databinding';
+import HandleEvent from './HandleEvent/HandleEvent';
+import StyleWithJSX from './StyleWithJSX/StyleWithJSX';
+import StateDemo from './StateDemo/StateDemo/StateDemo';
 
 function App() {
   return (
     <div className="App">
-      Hello cybersoft
+      Hello cybersoft Traning React
 
       {/* <DemoFunctionCom></DemoFunctionCom>
       <hr/>
@@ -21,7 +24,10 @@ function App() {
       </div> */}
       {/* <hr/ */}
       {/* <BaiTapLayout></BaiTapLayout> */}
-      <Databinding></Databinding>
+      {/* <Databinding></Databinding> */}
+      {/* <HandleEvent></HandleEvent> */}
+      {/* <StyleWithJSX></StyleWithJSX> */}
+      <StateDemo></StateDemo>
     </div>
   );
 }
