@@ -8,11 +8,20 @@ import Databinding from './Databinding/Databinding';
 import HandleEvent from './HandleEvent/HandleEvent';
 import StyleWithJSX from './StyleWithJSX/StyleWithJSX';
 import StateDemo from './StateDemo/StateDemo/StateDemo';
+import RenderWithMap from './RenderWithMap/RenderWithMap';
+import LayoutFilm from './RenderWithMap/LayoutFilm';
+import DemoProps from './Props/DemoProps/DemoProps';
+import ShoesShop from './Props/ShoesShop/ShoesShop';
+import DemoxemChiTiet from './Props/DemoXemChiTiet/DemoxemChiTiet';
+import ExerciseCarStore from './Props/ExerciseCarStore/ExerciseCarStore';
+import BaiTapLayoutComponent from './BaiTapLayoutComponent/BaiTapLayoutComponent';
 
 function App() {
   return (
-    <div className="App">
-      Hello cybersoft Traning React
+    <div className="App ">
+      {/* <h3 className='text-center text-danger p-2'>Huỳnh Ái Nhi</h3> */}
+
+      {/* Hello cybersoft Traning React */}
 
       {/* <DemoFunctionCom></DemoFunctionCom>
       <hr/>
@@ -27,7 +36,14 @@ function App() {
       {/* <Databinding></Databinding> */}
       {/* <HandleEvent></HandleEvent> */}
       {/* <StyleWithJSX></StyleWithJSX> */}
-      <StateDemo></StateDemo>
+      {/* <StateDemo></StateDemo> */}
+      {/* <RenderWithMap></RenderWithMap> */}
+      {/* <LayoutFilm></LayoutFilm> */}
+      {/* <DemoProps></DemoProps> */}
+      {/* <ShoesShop></ShoesShop> */}
+      {/* <DemoxemChiTiet /> */}
+      {/* <ExerciseCarStore/> */}
+      <BaiTapLayoutComponent/>
     </div>
   );
 }
